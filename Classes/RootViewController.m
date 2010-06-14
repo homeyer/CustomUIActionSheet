@@ -9,7 +9,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(showCustomView)] autorelease];
+	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] 
+		initWithBarButtonSystemItem:UIBarButtonSystemItemAction 
+		target:self 
+		action:@selector(showCustomView)] autorelease];
 }
 
 - (void)showCustomView {
